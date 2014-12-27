@@ -1,5 +1,5 @@
 $(function(){
-    var pokemon = [
+    var pokemon = {
         'Munna': {
         location: 'That dreamyard place',
         recommendedItem: 'Choice Specs'
@@ -8,7 +8,7 @@ $(function(){
         location: 'Electric places',
         otherInfo: 'hey'
     }
-    ];
+    };
     $('.catbutton').click(function(){
         var pokeToFind = $('.result').val();
         for(x = 0; x < pokemon.length; x++){
