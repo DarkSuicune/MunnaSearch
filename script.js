@@ -1,3 +1,3 @@
 $('.catbutton').click(function(){
-  $('.result').value('Munnas everywhere :D');
+  $('.result').val('Munnas everywhere :D');
 });
