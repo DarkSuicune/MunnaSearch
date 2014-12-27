@@ -11,12 +11,14 @@ $(function(){
     };
     $('.catbutton').click(function(){
         var pokeToFind = $('.result').val();
+        var pokeFound = false;
         for(x = 0; x < pokemon.length; x++){
-            if(pokemon[pokeToFin]){
+            pokeFound = true;
+        }
+            if(pokeFound){
                 $('.result').html('<span class="result">' + pokemon[pokeToFind] + '</span>');
             } else {
                 $('.result').html('<span class="result">We couldn\'t find that Poke D;</span>');
             }
-        }
   });
 });
