@@ -1,4 +1,5 @@
 $(function(){
+    
     var pokemon = {
         'Munna': {
         location: 'That dreamyard place',
@@ -9,6 +10,7 @@ $(function(){
         otherInfo: 'hey'
     }
     };
+    
     $('.catbutton').click(function(){
         var pokeToFind = $('.result').val();
         var pokeFound = false;
@@ -16,7 +18,7 @@ $(function(){
             pokeFound = true;
         }
             if(pokeFound){
-                $('.result').html('<span class="result">' + pokemon[pokeToFind] + '</span>');
+                $('.result').html('<span class="result">' + pokemon['Munna'] + '</span>');
             } else {
                 $('.result').html('<span class="result">We couldn\'t find that Poke D;</span>');
             }
