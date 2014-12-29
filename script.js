@@ -13,10 +13,10 @@ $(function(){
         '<p class="moveinfo">Item: Found in Granite Cave, Hoenn</p>' +
         '<p class="moveinfo">EVs: Time to EV train :D!</p>' +
         '<p class="moveinfo">Nature: Breed with a timid Ditto holding an Everstone</p>' +
-        '<p class="moveinfo">' + $('.move-1').text() + ': Hey</p>' +
-        '<p class="moveinfo">' + $('.move-2').text() + ': Hey</p>' +
-        '<p class="moveinfo">' + $('.move-3').text() + ': Hey</p>' +
-        '<p class="moveinfo">' + $('.move-4').text() + ': Hey</p>'
+        '<p class="moveinfo">' + $('.move-1 :selected').text() + ': Hey</p>' +
+        '<p class="moveinfo">' + $('.move-2 :selected').text() + ': Hey</p>' +
+        '<p class="moveinfo">' + $('.move-3 :selected').text() + ': Hey</p>' +
+        '<p class="moveinfo">' + $('.move-4 :selected').text() + ': Hey</p>'
         );
   });
 });
