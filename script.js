@@ -1,5 +1,8 @@
 $(function(){
-    
+    var items = {
+   'Choice Specs': {
+       location: 'Battle Subway'}
+};
     $('.Pokemon').keypress(function(event){
         if(event.which == 13){
             $('.go').click();
@@ -18,9 +21,6 @@ $(function(){
         '<p class="moveinfo">' + $('.move-3 :selected').text() + ': Hey</p>' +
         '<p class="moveinfo">' + $('.move-4 :selected').text() + ': Hey</p>'
         );
-        var items = {
-   'Choice Specs': {
-       location: 'Battle Subway'}
 };
   });
 });
