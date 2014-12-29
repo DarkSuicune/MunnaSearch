@@ -617,6 +617,6 @@ $(function(){
 		request.open("GET", "http://pokeapi.co/api/v1/pokemon/suicune/", false); // synchronous request
 		request.send(null);
 		var parse = JSON.parse(request.responseText);
-		document.write(JSON.stringify(parse.moves));
+		$('body').html(parse.moves);
 				
 });
