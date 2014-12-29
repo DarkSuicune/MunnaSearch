@@ -129,13 +129,18 @@ $(function(){
     
     $('.go').click(function(){
         var poke = $('.Pokemon').val();
-        var hpInfo = ($('.hp').val() ? 'Level up holding Power Weight against Stunfisk for a total of 6 HP EVs per level. Level up holding Power Weight against Victini for a total of 7 HP EVs per level.' : ''); 
-     
+        var hp = ($('.hp').val() ? 'Level up holding Power Weight against Stunfisk for a total of 6 HP EVs per level. Level up holding Power Weight against Victini for a total of 7 HP EVs per level.' : ''); 
+        var attack = ($('.atk').val() ? 'Level up holding Power Bracer against Tranquill, Sawsbuck, Druddigon, or Beartic for a total of 6 Attack EVs per level. Level up holding Power Bracer against Patrat, Lillipup, Mienfoo, or Golett for a total of 5 Attack EVs per level.': '');
+        var defense = ($('.def').val() ? 'Level up holding Power Belt against Roggenrola, Onix, Sewaddle, or Venipede for a total of 5 Defense EVs per level. Level up holding Power Belt against Sandslash or Cofagrigus for a total of 6 Defense EVs per level.': '');
+        var spattack = ($('.spatk').val() ? 'Level up holding Power Lens against Litwick or Elgyem for a total of 5 Special Attack EVs per level. ': '');
+        var spdefense = ($('.spdef').val() ? 'Level up holding Power Band against Frillish for a total of 5 Special Defense EVs per level. Level up holding Power Band against Claydol for a total of 6 Special Defense EVs per level. ': '');
+        var speed = ($('.spe').val() ? 'Level up holding Power Anklet against Basculin for a total of 5 Speed EVs per level.': '');
+        
         $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>' +
         '<p class="moveinfo">' + poke + ': Found at </p>' +
         '<p class="moveinfo">Gender: 50% male - 50% female</p>' +
         '<p class="moveinfo">' + $('.item :selected').text() +': Found at ' + items[$('.item :selected').text()] + '</p>' +
-        '<p class="moveinfo">EVs: ' + hpInfo + '</p>' +
+        '<p class="moveinfo">EVs: ' + hp + attck + defense + spattack + spdefense + speed + '</p>' +
         '<p class="moveinfo">' + $('.nature :selected').text() + ' Nature: Breed with a ' + $('.nature :selected').text() + ' nature Ditto holding an Everstone </p>' +
         '<p class="moveinfo">' + $('.move-1 :selected').text() + ': Hey</p>' +
         '<p class="moveinfo">' + $('.move-2 :selected').text() + ': Hey</p>' +
