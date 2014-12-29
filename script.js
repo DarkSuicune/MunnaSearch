@@ -310,7 +310,28 @@ $(function(){
 	'Sunkern':' Route 20 Summer Grass & Dark Grass 26%',
 	'Sunflora':' Evolve Sunkern',
 	'Herdier':' Route 1 Dark Grass 39%, Route 1 Grass 50%',
-	'Stoutland':' Route 1, 2, 3 Shaking Grass 5%, P2 Laboratory Shaking Grass 5%'
+	'Stoutland':' Route 1, 2, 3 Shaking Grass 5%, P2 Laboratory Shaking Grass 5%',
+	'Mareep':' Floccesy Ranch Grass 10%',
+	'Flaaffy':' Evolve Mareep',
+	'Ampharos':' Evolve Flaaffy',
+	'Psyduck':' Floccesy Ranch Grass 10%',
+	'Golduck':' Seaside Cave 1F Grass 35%, Village Bridge Grass & Dark Grass 35%',
+	'Azurill':' Route 20 Surf 30%, Flocessy Ranch Surf 30%',
+	'Marill':' Routes 6 & 22, Abundant Shrine, Pinwheel Forest, Relic Passage, & Victory Road Surf Rippling Water 60%,',
+	'Azumarill':' Routes 6, 11, 20, and 22 Surf Rippling Water 5%',
+	'Riolu':' Floccesy Ranch Grass 5%',
+	'Lucario':' Evolve Riolu',
+	'Dunsparce':' Routes 1, 2, 6, 12, 18, & 20 Shaking Grass 10%',
+	'Audino':' Any Shaking Grass',
+	'Pansage':' Pinwheel & Lostlorn Forest Shaking Grass 10%',
+	'Simisage':' Evolve Pansage',
+	'Pansear':' Pinwheel & Lostlorn Forest Shaking Grass 10%',
+	'Simisear':' Evolve Pansear',
+	'Panpour':' Pinwheel & Lostlorn Forest Shaking Grass 10%',
+	'Simipour':' Evolve Pansear',
+	'Venipede':' Route 20 Dark Grass 20%, Lostlorn Forest Grass 20%',
+	'Whirlipede':' Lostlorn Forest Dark Grass 20%',
+	'Scolipede':' Pinwheel Forest Shaking Grass 5%'
     };
         
     $('.Pokemon').keypress(function(event){
