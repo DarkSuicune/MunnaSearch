@@ -22,6 +22,5 @@ $(function(){
         '<p class="moveinfo">' + $('.move-3 :selected').text() + ': Hey</p>' +
         '<p class="moveinfo">' + $('.move-4 :selected').text() + ': Hey</p>'
         );
-};
   });
 });
