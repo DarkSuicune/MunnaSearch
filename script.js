@@ -130,11 +130,11 @@ $(function(){
     $('.go').click(function(){
         var poke = $('.Pokemon').val();
         var hp = ($('.hp').val() && $('.hp').val() !== '0' ? 'Level up holding Power Weight against Stunfisk for a total of 6 HP EVs per level. Level up holding Power Weight against Victini for a total of 7 HP EVs per level.' : ''); 
-        var attack = ($('.atk').val() ? 'Level up holding Power Bracer against Tranquill, Sawsbuck, Druddigon, or Beartic for a total of 6 Attack EVs per level. Level up holding Power Bracer against Patrat, Lillipup, Mienfoo, or Golett for a total of 5 Attack EVs per level.': '');
-        var defense = ($('.def').val() ? 'Level up holding Power Belt against Roggenrola, Onix, Sewaddle, or Venipede for a total of 5 Defense EVs per level. Level up holding Power Belt against Sandslash or Cofagrigus for a total of 6 Defense EVs per level.': '');
-        var spattack = ($('.spatk').val() ? 'Level up holding Power Lens against Litwick or Elgyem for a total of 5 Special Attack EVs per level. ': '');
-        var spdefense = ($('.spdef').val() ? 'Level up holding Power Band against Frillish for a total of 5 Special Defense EVs per level. Level up holding Power Band against Claydol for a total of 6 Special Defense EVs per level. ': '');
-        var speed = ($('.spe').val() ? 'Level up holding Power Anklet against Basculin for a total of 5 Speed EVs per level.': '');
+        var attack = ($('.atk').val() && $('.atk').val() !== '0' ? 'Level up holding Power Bracer against Tranquill, Sawsbuck, Druddigon, or Beartic for a total of 6 Attack EVs per level. Level up holding Power Bracer against Patrat, Lillipup, Mienfoo, or Golett for a total of 5 Attack EVs per level.': '');
+        var defense = ($('.def').val() && $('def').val() !== '0' ? 'Level up holding Power Belt against Roggenrola, Onix, Sewaddle, or Venipede for a total of 5 Defense EVs per level. Level up holding Power Belt against Sandslash or Cofagrigus for a total of 6 Defense EVs per level.': '');
+        var spattack = ($('.spatk').val() && $('.spatk').val() !== '0' ? 'Level up holding Power Lens against Litwick or Elgyem for a total of 5 Special Attack EVs per level. ': '');
+        var spdefense = ($('.spdef').val() && $('.spdef').val() !== '0' ? 'Level up holding Power Band against Frillish for a total of 5 Special Defense EVs per level. Level up holding Power Band against Claydol for a total of 6 Special Defense EVs per level. ': '');
+        var speed = ($('.spe').val() && $('.spe').val() !== '0' ? 'Level up holding Power Anklet against Basculin for a total of 5 Speed EVs per level.': '');
         
         $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>' +
         '<p class="moveinfo">' + poke + ': Found at </p>' +
