@@ -1,1 +1,4 @@
 /*The page isn't gonna style itself :D*/
+p.moveinfo{
+  display: block;
+}
