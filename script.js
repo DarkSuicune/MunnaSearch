@@ -329,7 +329,7 @@ $(function(){
         var speed = ($('.spe').val() && $('.spe').val() !== '0' ? ' Level up holding Power Anklet against Basculin for a total of 5 Speed EVs per level.': '');
         
         $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>' +
-        '<p class="moveinfo">' + poke + ': Found at ' + locations[poke] + </p>' +
+        '<p class="moveinfo">' + poke + ': Found at ' + locations[poke] + '</p>' +
         '<p class="moveinfo">' + $('.item :selected').text() +': Found at ' + items[$('.item :selected').text()] + '</p>' +
         '<p class="moveinfo">EVs: ' + hp + attack + defense + spattack + spdefense + speed + '</p>' +
         '<p class="moveinfo">' + $('.nature :selected').text() + ' Nature: Breed with a ' + $('.nature :selected').text() + ' nature Ditto holding an Everstone </p>' +
