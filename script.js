@@ -117,8 +117,8 @@ $(function(){
 'Tanga Berry': ' Join Avenue', 
 'Wacan Berry': ' Join Avenue', 
 'Watmel Berry': ' Join Avenue', 
-'Yache Berry': ' Join Avenue, Wild Starly 5%, Wild Staravia 5%, Wild Staraptor 5%', 
-
+'Yache Berry': ' Join Avenue, Wild Starly 5%, Wild Staravia 5%, Wild Staraptor 5%' 
+        
     };
     $('.Pokemon').keypress(function(event){
         if(event.which == 13){
