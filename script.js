@@ -2,12 +2,12 @@ $(function(){
     
     $('.Pokemon').keypress(function(event){
         if(event.which == 13){
-            $('.catbutton').click();
+            $('.go').click();
         }
     });
     
-    $('.catbutton').click(function(){
+    $('.go').click(function(){
         var poke = $('.Pokemon').val();
-        $('.result').html('<span class="result"> ' How to breed the perfect ' + poke + '!</span>');
+        $('.result').html('<span class="result">How to breed the perfect ' + poke + '!</span>');
   });
 });
