@@ -128,7 +128,6 @@ $(function(){
     
     $('.go').click(function(){
         var poke = $('.Pokemon').val();
-        $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>' +
         '<p class="moveinfo">Gender: 50% male - 50% female</p>' +
         '<p class="moveinfo">' + $('.item :selected').text() +': Found at ' + items[$('.item :selected').text()] + '</p>' +
         '<p class="moveinfo">EVs: Time to EV train :D!</p>' +
