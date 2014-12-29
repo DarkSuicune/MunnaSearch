@@ -121,7 +121,7 @@ $(function(){
         
     };
     
-    var hpInfo = 'Level up holding Power Weight against Stunfisk for a total of 6 HP EVs per level. Level up holding Power Weight against Victini for a total of 7 HP EVs per level.';
+        ($('.hp').val() ? var hpInfo = 'Level up holding Power Weight against Stunfisk for a total of 6 HP EVs per level. Level up holding Power Weight against Victini for a total of 7 HP EVs per level.' : var hpInfo = ''); 
     $('.Pokemon').keypress(function(event){
         if(event.which == 13){
             $('.go').click();
@@ -134,7 +134,7 @@ $(function(){
         '<p class="moveinfo">Pokemon: ' + poke + '</p>' +
         '<p class="moveinfo">Gender: 50% male - 50% female</p>' +
         '<p class="moveinfo">' + $('.item :selected').text() +': Found at ' + items[$('.item :selected').text()] + '</p>' +
-        '<p class="moveinfo">EVs: ' + ($('.hp').val() ? hpInfo) + '</p>' +
+        '<p class="moveinfo">EVs: ' + hpInfo + '</p>' +
         '<p class="moveinfo">' + $('.nature :selected').text() + ' Nature: Breed with a ' + $('.nature :selected').text() + ' nature Ditto holding an Everstone </p>' +
         '<p class="moveinfo">' + $('.move-1 :selected').text() + ': Hey</p>' +
         '<p class="moveinfo">' + $('.move-2 :selected').text() + ': Hey</p>' +
