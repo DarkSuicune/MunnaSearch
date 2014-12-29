@@ -3,3 +3,8 @@ p.moveinfo{
   display: block;
 }
 
+input.evs {
+  width: 4em;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
