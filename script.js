@@ -13,10 +13,10 @@ $(function(){
         'Item: Found in Granite Cave, Hoenn' +
         'EVs: Time to EV train :D!' +
         'Nature: Breed with a timid Ditto holding an Everstone' +
-        'Move 1: Hey' +
-        'Move 2: Hey' +
-        'Move 3: Hey' +
-        'Move 4: Hey'
+        '<p class="moveinfo">Move 1: Hey</p>' +
+        '<p class="moveinfo">Move 2: Hey</p>' +
+        '<p class="moveinfo">Move 3: Hey</p>' +
+        '<p class="moveinfo">Move 4: Hey</p>'
         );
   });
 });
