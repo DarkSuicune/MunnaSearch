@@ -120,8 +120,7 @@ $(function(){
 'Yache Berry': ' Join Avenue, Wild Starly 5%, Wild Staravia 5%, Wild Staraptor 5%' 
         
     };
-    
-        ($('.hp').val() ? var hpInfo = 'Level up holding Power Weight against Stunfisk for a total of 6 HP EVs per level. Level up holding Power Weight against Victini for a total of 7 HP EVs per level.' : var hpInfo = ''); 
+        
     $('.Pokemon').keypress(function(event){
         if(event.which == 13){
             $('.go').click();
@@ -130,6 +129,8 @@ $(function(){
     
     $('.go').click(function(){
         var poke = $('.Pokemon').val();
+        var hpInfo = ($('.hp').val() ? 'Level up holding Power Weight against Stunfisk for a total of 6 HP EVs per level. Level up holding Power Weight against Victini for a total of 7 HP EVs per level.' : ''); 
+     
         $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>' +
         '<p class="moveinfo">Pokemon: ' + poke + '</p>' +
         '<p class="moveinfo">Gender: 50% male - 50% female</p>' +
