@@ -120,6 +120,45 @@ $(function(){
 'Yache Berry': ' Join Avenue, Wild Starly 5%, Wild Staravia 5%, Wild Staraptor 5%' 
         
     };
+    
+    var moves = {
+    	'Hone Claws':' TM01 Victory Road',
+	'Dragon Claw':' TM02 Dragonspiral Tower',
+	'Psyshock':' TM03 Giant Chasm',
+	'Calm Mind':' TM04 Striaton City Poke Mart',
+	'Roar':' TM05 Route 23',
+	'Toxic':' TM06 Seaside Cave',
+	'Hail':' TM07 Mistralton City Poke Mart',
+	'Bulk Up':' TM08 Striaton City Poke Mart',
+	'Venoshock':' TM09 Defeat Roxie',
+	'Hidden Power':' TM10 Battle Subway, PWT',
+	'Sunny Day':' TM11 Mistralton City Poke Mart',
+	'Taunt':' TM12 Route 23',
+	'Ice Beam':' TM13 Giant Chasm',
+	'Blizzard':' TM14 Lacunosa Town Poke Mart',
+	'Hyper Beam':' TM15 Route 9 Dept. Store',
+	'Light Screen':' TM16 Nimbasa City Poke Mart',
+	'Protect':' TM17 Battle Subway, PWT',
+	'Rain Dance':' TM18 Mistralton City Poke Mart',
+	'Telekinesis':' TM19 Route 18',
+	'Safeguard':' TM20 Battle Subway, PWT',
+	'Frustration':' TM21 Floccesy Ranch',
+	'SolarBeam':' TM22 Pinwheel Forest',
+	'Smack Down':' TM23 Battle Subway, PWT',
+	'Thunderbolt':' TM24 Victory Road',
+	'Thunder':' TM25 Lacunosa Town Poke Mart',
+	'Earthquake':' TM26 Route 15',
+	'Return':' TM2 Aspertia City',
+	'Dig':' TM28 Route 4',
+	'Psychic':' TM29 Route 13',
+	'Shadow Ball':' TM30 Reversal Mountain',
+	'Brick Break':' TM31 Battle Subway, PWT',
+	'Double Team':' TM31 Battle Subway, PWT',
+	'Reflect':' TM33 Nimbasa City Poke Mart',
+	'Sludge Wave':' TM34 Battle Subway, PWT',
+	'Flamethrower':' TM35 Route 23',
+	'Sludge Bomb':' TM36 Route 8'
+    };
         
     $('.Pokemon').keypress(function(event){
         if(event.which == 13){
@@ -142,10 +181,10 @@ $(function(){
         '<p class="moveinfo">' + $('.item :selected').text() +': Found at ' + items[$('.item :selected').text()] + '</p>' +
         '<p class="moveinfo">EVs: ' + hp + attack + defense + spattack + spdefense + speed + '</p>' +
         '<p class="moveinfo">' + $('.nature :selected').text() + ' Nature: Breed with a ' + $('.nature :selected').text() + ' nature Ditto holding an Everstone </p>' +
-        '<p class="moveinfo">' + $('.move-1 :selected').text() + ': Hey</p>' +
-        '<p class="moveinfo">' + $('.move-2 :selected').text() + ': Hey</p>' +
-        '<p class="moveinfo">' + $('.move-3 :selected').text() + ': Hey</p>' +
-        '<p class="moveinfo">' + $('.move-4 :selected').text() + ': Hey</p>'
+        '<p class="moveinfo">' + $('.move-1 :selected').text() + ': Found at ' + moves[$('.move-1 :selected').text()] + '</p>' +
+        '<p class="moveinfo">' + $('.move-2 :selected').text() + ': Found at ' + moves[$('.move-2 :selected').text()] + '</p>' +
+        '<p class="moveinfo">' + $('.move-3 :selected').text() + ': Found at ' + moves[$('.move-3 :selected').text()] + '</p>' +
+        '<p class="moveinfo">' + $('.move-4 :selected').text() + ': Found at ' + moves[$('.move-4 :selected').text()] + '</p>'
         );
   });
   
