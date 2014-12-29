@@ -15,8 +15,8 @@ $(function(){
         '<p class="moveinfo">Nature: Breed with a timid Ditto holding an Everstone</p>' +
         '<p class="moveinfo">' + $('.move-1').val() + ': Hey</p>' +
         '<p class="moveinfo">' + $('.move-2').val() + ': Hey</p>' +
-        '<p class="moveinfo">' + $('.move-2').val() + ': Hey</p>' +
-        '<p class="moveinfo">' + $('.move-2').val() + ': Hey</p>'
+        '<p class="moveinfo">' + $('.move-3').val() + ': Hey</p>' +
+        '<p class="moveinfo">' + $('.move-4').val() + ': Hey</p>'
         );
   });
 });
