@@ -182,7 +182,7 @@ $(function(){
 	'Sky Drop':' TM58 Mistralton City',
 	'Incinerate':' TM59 Battle Subway, PWT',
 	'Quash':' TM60 Battle Subway, PWT',
-	'Will':'O':'Wisp':' TM61 Celestial Tower',
+	'Will-O-Wisp':' TM61 Celestial Tower',
 	'Acrobatics':' TM62 Defeat Skyla',
 	'Embargo':' TM63 Driftveil City Market',
 	'Explosion':' TM64 Battle Subway, PWT',
