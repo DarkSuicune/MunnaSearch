@@ -1,7 +1,9 @@
 $(function(){
     var items = {
     'Absorb Bulb': ' Gear Station (32BP), PWT (16BP), Wild Roserade 1%, Wild Roselia 1%',
+    'Adamant Orb': ' Dragonspiral Tower',
     'Air Balloon': ' Gear Station (12BP), PWT (12BP), Wild Drifblim 1%',
+    'Apicot Berry': ' Join Avenue',
     'Big Root': ' Driftveil City (Gift), Wild Cradily 5%, Wild Lileep 5%',
     'Binding Band': ' Gear Station (8BP), PWT (8BP)',
     'Black Belt': ' Icirrus City (Gift), Wild Throh 5%, Wild Sawk 5%',
@@ -54,7 +56,37 @@ $(function(){
     'Stone Plate': ' Undersea Ruins',
     'Toxic Orb': ' Gear Station, PWT, Wild Muk 1%',
     'Toxic Plate': ' Undersea Ruins',
-    'Zap Plate': ' Undersea Ruins'
+    'Zap Plate': ' Undersea Ruins',
+    'Babiri Berry': ' Join Avenue, Wild Snorunt 5%, Wild Glalie 5%, Wild Froslass 5%',
+'Belue Berry': ' Join Avenue',
+'Charti Berry': ' Join Avenue, Wild Taillow 5%, Wild Swellow 5%',
+'Chesto Berry': ' Join Avenue, Wild Whismur 5%, Wild Loudred 5%, Wild Exploud 5%, Wild Spinda 5%, Wild Minccino 50%, Wild Cinccino 50%',
+'Chilan Berry': ' Join Avenue',
+'Chople Berry': ' Join Avenue',
+'Coba Berry': ' Join Avenue',
+'Colbur Berry': ' Join Avenue, Wild Chimecho 5%, Wild Chingling 5%',
+'Durin Berry': ' Join Avenue', 
+'Ganlon Berry': ' Join Avenue', 
+'Haban Berry': ' Join Avenue, Wild Gible 5%, Wild Gabite 5%, Wild Garchomp 5%', 
+'Kasib Berry': ' Join Avenue, Wild Duskull 5%, Wild Dusclops 5%, Wild Dusknoir 5%', 
+'Kebia Berry': ' Join Avenue, Wild Shroomish 5%, Wild Breloom 5%', 
+'Leppa Berry': ' Join Avenue, Wild Clefairy 50%, Wild Clefable 50%, Wild Cleffa 50%', 
+'Liechi Berry': ' Join Avenue', 
+'Lum Berry': ' Join Avenue, Wild Mew 100%, Wild Celebi 100%, Wild Shaymin 100%', 
+'Occa Berry': ' Join Avenue, Wild Mawile 5%, Wild Pansage 5%, Wild Simisage 5%', 
+'Oran Berry': ' Join Avenue Wild Sentret 5%, Wild Furret 50%, Wild Zigzagoon 5%, Wild Linoone 50%, Wild Bibarel 50%, Wild Pansage 50%, Wild Simisage 50%, Wild Pansear 50%, Wild Simisear 50%, Wild Panpour 50%, Wild Simipour 50%, Wild Audino 50%', 
+'Passho Berry': ' Join Avenue, Wild Phanpy 5%, Wild Donphan 5%, Wild Pansear 5%, Wild Simisear 5%', 
+'Payapa Berry': ' Join Avenue, Wild Mankey 5%, Wild Primeape 5%', 
+'Rawst Berry': ' Join Avenue, Wild Vulpix 100%, Wild Ninetales 100%, Wild Growlithe 50%, Wild Arcanine 50%, Wild Numel 100%, Wild Camerupt 100%, Wild Darumaka 50%, Wild Darmanitan 50%', 
+'Rindo Berry': ' Join Avenue, Wild Finneon 5%, Wild Lumineon 5%, Wild Panpour 5%, Wild Simipour 5%', 
+'Salac Berry': ' Join Avenue', 
+'Shuca Berry': ' Join Avenue, Wild Ponyta 5%, Wild Rapidash 5%', 
+'Sitrus Berry': ' Join Avenue, Wild Furret 5%, Wild Linoone 5%, Wild Bibarel 5%, Wild Audino 5%', 
+'Tanga Berry': ' Join Avenue', 
+'Wacan Berry': ' Join Avenue', 
+'Watmel Berry': ' Join Avenue', 
+'Yache Berry': ' Join Avenue, Wild Starly 5%, Wild Staravia 5%, Wild Staraptor 5%', 
+
     };
     $('.Pokemon').keypress(function(event){
         if(event.which == 13){
