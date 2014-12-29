@@ -142,7 +142,7 @@ $(function(){
   });
   
 			var request = new XMLHttpRequest();
-			request.open("GET", "http://pokeapi.co/api/v1/pokemon/245", false); // synchronous request
+			request.open("GET", "http://pokeapi.co/api/v1/pokemon/245/", false); // synchronous request
 			request.send(null);
 			var parse = JSON.parse(request.responseText);
 			document.write(parse);
