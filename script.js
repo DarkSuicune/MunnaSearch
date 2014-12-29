@@ -12,7 +12,7 @@ $(function(){
     'Choice Scarf': ' Gear Station, PWT',
     'Damp Rock': ' Route 8 (Gift)',
     'Draco Plate': ' Route 13',
-    'Dragon Fang': ' Dragonspiral Tower, Wild Bagon 5%, Wild Shelgon 5%, Wild Salamence 5%, Wild Druddigon 5%,
+    'Dragon Fang': ' Dragonspiral Tower, Wild Bagon 5%, Wild Shelgon 5%, Wild Salamence 5%, Wild Druddigon 5%',
     'Dread Plate': ' Undersea Ruins',
     'Earth Plate': ' Undersea Ruins',
     'Everstone': ' Castelia City, Wild Boldore 50%, Wild Roggenrola 50%, Wild Gigalith 50%, Wild Geodude 5%, Wild Graveler 5%, Wild Golem 5%',
