@@ -8,6 +8,6 @@ $(function(){
     
     $('.go').click(function(){
         var poke = $('.Pokemon').val();
-        $('.result').html('<span class="result">How to breed the perfect ' + poke + '!</span>');
+        $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>');
   });
 });
