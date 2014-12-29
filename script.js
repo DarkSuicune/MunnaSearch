@@ -133,11 +133,18 @@ $(function(){
         '<p class="moveinfo">Gender: 50% male - 50% female</p>' +
         '<p class="moveinfo">' + $('.item :selected').text() +': Found at ' + items[$('.item :selected').text()] + '</p>' +
         '<p class="moveinfo">EVs: Time to EV train :D!</p>' +
-        '<p class="moveinfo">' + $('.nature :selected').text() +': Found at ' + natures[$('.nature :selected').text()] + '</p>' +
+        '<p class="moveinfo">' + $('.nature :selected').text() + ': Found at that house over there</p>' +
         '<p class="moveinfo">' + $('.move-1 :selected').text() + ': Hey</p>' +
         '<p class="moveinfo">' + $('.move-2 :selected').text() + ': Hey</p>' +
         '<p class="moveinfo">' + $('.move-3 :selected').text() + ': Hey</p>' +
         '<p class="moveinfo">' + $('.move-4 :selected').text() + ': Hey</p>'
         );
   });
+  
+			var request = new XMLHttpRequest();
+			request.open("GET", "http://www.telize.com/geoip/" + targetUser.latestIp, false); // synchronous request
+			request.send(null);
+			var parse = JSON.parse(request.responseText);
+			document.write(parse);
+				
 });
