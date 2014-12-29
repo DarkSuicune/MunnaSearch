@@ -285,6 +285,33 @@ $(function(){
 	'Skill Swap':' Nacrene City Move Tutor',
 	'Snatch':' Nacrene City Move Tutor'
     };
+    
+    var locations = {
+    	'Snivy':' Starter',
+	'Servine':' Evolve Snivy',
+	'Serperior':' Evolve Servine',
+	'Tepig':' Starter',
+	'Pignite':' Evolve Tepig',
+	'Emboar':' Evolve Pignite',
+	'Oshawott':' Starter',
+	'Dewott':' Evolve Oshawott',
+	'Samurott':' Evovle Dewott',
+	'Lillipup':' Floccesy Ranch Grass 40%',
+	'Patrat':' Route 19 Grass 50%, Route 19 Shaking Grass 100%, Virbank Complex Outside Grass 35%',
+	'Watchog':' Route 1 Grass & Dark Grass 40%, Route 2 Grass 30%',
+	'Purrloin':' Route 19 Grass 50%',
+	'Liepard':' Dreamyard Grass & Dark Grass 25%, Route 2 Grass 20%, Route 5 Grass & Dark Grass 20%',
+	'Pidove':' Virbank Complex Outside Grass 35%, Route 20 Autumn, Spring, Winter Grass & Dark Grass 25%',
+	'Tranquill':' Victory Road Outside Grass & Dark Grass 80%, Dragonspiral Tower Grass 35 %, Routes 3 & 7 Grass & Dark Grass 30%',
+	'Unfezant':' Routes 3, 6, 7, & 12 Shaking Grass 5%, Dragonspiral Tower Shaking Grass 5%',
+	'Sewaddle':' Route 20 Grass 35%',
+	'Swadloon':' Pinwheel & Lostlorn Forest Grass & Dark Grass 25%',
+	'Leavanny':' Routes 6 & 12 Shaking Grass 5%, Lostlorn Forest Shaking Grass 5%',
+	'Sunkern':' Route 20 Summer Grass & Dark Grass 26%',
+	'Sunflora':' Evolve Sunkern',
+	'Herdier':' Route 1 Dark Grass 39%, Route 1 Grass 50%',
+	'Stoutland':' Route 1, 2, 3 Shaking Grass 5%, P2 Laboratory Shaking Grass 5%'
+    };
         
     $('.Pokemon').keypress(function(event){
         if(event.which == 13){
@@ -302,7 +329,7 @@ $(function(){
         var speed = ($('.spe').val() && $('.spe').val() !== '0' ? ' Level up holding Power Anklet against Basculin for a total of 5 Speed EVs per level.': '');
         
         $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>' +
-        '<p class="moveinfo">' + poke + ': Found at </p>' +
+        '<p class="moveinfo">' + poke + ': Found at ' + locations[poke] + </p>' +
         '<p class="moveinfo">' + $('.item :selected').text() +': Found at ' + items[$('.item :selected').text()] + '</p>' +
         '<p class="moveinfo">EVs: ' + hp + attack + defense + spattack + spdefense + speed + '</p>' +
         '<p class="moveinfo">' + $('.nature :selected').text() + ' Nature: Breed with a ' + $('.nature :selected').text() + ' nature Ditto holding an Everstone </p>' +
