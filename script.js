@@ -617,7 +617,7 @@ $(function(){
 	// } else {
 	// 	moveRespOne = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
 	// }
-	moveRespOne = stringify(parse.egg_groups);
+	moveRespOne = JSON.stringify(parse.egg_groups);
 	
 	if(moves[$('.move-2 :selected').text()] !== undefined){
 		moveRespTwo = moves[$('.move-2 :selected').text()];
