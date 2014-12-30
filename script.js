@@ -608,16 +608,16 @@ $(function(){
 		learnable = [];
 		
 	var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'http://pokeapi.co/api/v1/pokemon/absol', false);
+	xhr.open('GET', 'http://pokeapi.co/api/v1/pokemon/' + poke.toLowerCase() + '/', false);
 	xhr.send(null);
 	var parse = JSON.parse(xhr.responseText);
-	alert(parse['egg_groups'].name);
 
-	if(moves[$('.move-1 :selected').text()] !== undefined){
-		moveRespOne = moves[$('.move-1 :selected').text()];
-	} else {
-		moveRespOne = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
-	}
+	// if(moves[$('.move-1 :selected').text()] !== undefined){
+	// 	moveRespOne = moves[$('.move-1 :selected').text()];
+	// } else {
+	// 	moveRespOne = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
+	// }
+	moveRespOne = parse.egg_groups;
 	
 	if(moves[$('.move-2 :selected').text()] !== undefined){
 		moveRespTwo = moves[$('.move-2 :selected').text()];
