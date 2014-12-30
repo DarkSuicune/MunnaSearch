@@ -615,25 +615,25 @@ $(function(){
 	if(moves[$('.move-1 :selected').text()] !== undefined){
 		moveRespOne = moves[$('.move-1 :selected').text()];
 	} else {
-		moveRespOne = 'If your Pokemon doesn\'t learn this by level 100 or by breeding, it ain\'t going to';
+		moveRespOne = 'If your Pokemon doesn\'t learn this by level 100 or by <a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Egg_Group">breeding</a>, it ain\'t going to';
 	}
 	
 	if(moves[$('.move-2 :selected').text()] !== undefined){
 		moveRespTwo = moves[$('.move-2 :selected').text()];
 	} else {
-		moveRespTwo = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
+		moveRespTwo = 'If your Pokemon doesn\'t learn this by level 100 or by <a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Egg_Group">breeding</a>, it ain\'t going to';
 	}
 	
 	if(moves[$('.move-3 :selected').text()] !== undefined){
 		moveRespThree = moves[$('.move-3 :selected').text()];
 	} else {
-		moveRespThree = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
+		moveRespThree = 'If your Pokemon doesn\'t learn this by level 100 or by <a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Egg_Group">breeding</a>, it ain\'t going to';
 	}
 	
 	if(moves[$('.move-4 :selected').text()] !== undefined){
 		moveRespFour = moves[$('.move-4 :selected').text()];
 	} else {
-		moveRespFour = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
+		moveRespFour = 'If your Pokemon doesn\'t learn this by level 100 or by <a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Egg_Group">breeding</a>, it ain\'t going to';
 	}
         
         $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>' +
