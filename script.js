@@ -611,7 +611,7 @@ $(function(){
 		moveRespThree,
 		moveRespFour;
 	$.getJSON("http://pokeapi.co/api/v1/pokemon/suicune/", function(data){
-		alert(data);
+		alert(JSON.parse(data));
 	});
 	// if(parse.moves['name'] === $('.move-1 :selected').text()){
 	// 	moveRespOne = moves[$('.move-1 :selected').text()];
