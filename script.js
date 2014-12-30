@@ -611,7 +611,7 @@ $(function(){
 		moveRespThree,
 		moveRespFour;
 	
-	if(parse.moves[$('.move-1 :selected').text()]){
+	if(parse.moves['name'] === $('.move-1 :selected').text()){
 		moveRespOne = moves[$('.move-1 :selected').text()];
 	} else {
 		moveRespOne = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
