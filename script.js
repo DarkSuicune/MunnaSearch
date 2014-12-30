@@ -639,7 +639,7 @@ $(function(){
         '<p class="moveinfo">' + $('.move-1 :selected').text() + ': ' + moveRespOne + '</p>' +
         '<p class="moveinfo">' + $('.move-2 :selected').text() + ': ' + moveRespTwo + '</p>' +
         '<p class="moveinfo">' + $('.move-3 :selected').text() + ': ' + moveRespThree + '</p>' +
-        '<p class="moveinfo">' + $('.move-4 :selected').text() + ': ' + moveRepFour + '</p>'
+        '<p class="moveinfo">' + $('.move-4 :selected').text() + ': ' + moveRespFour + '</p>'
         );
   });
 				
