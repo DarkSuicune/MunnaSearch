@@ -601,21 +601,23 @@ $(function(){
         var spdefense = ($('.spdef').val() && $('.spdef').val() !== '0' ? ' Level up holding Power Band against Frillish for a total of 5 Special Defense EVs per level. Level up holding Power Band against Claydol for a total of 6 Special Defense EVs per level. ': '');
         var speed = ($('.spe').val() && $('.spe').val() !== '0' ? ' Level up holding Power Anklet against Basculin for a total of 5 Speed EVs per level.': '');
         
-        var request = new XMLHttpRequest();
-	request.open("GET", "http://pokeapi.co/api/v1/pokemon/suicune/", false); // synchronous request
-	request.send(null);
-	var parse = JSON.parse(request.responseText);
-	parse = JSON.stringify(parse);
+ //       var request = new XMLHttpRequest();
+	// request.open("GET", "http://pokeapi.co/api/v1/pokemon/suicune/", false); // synchronous request
+	// request.send(null);
+	// var parse = JSON.parse(request.responseText);
+	// parse = JSON.stringify(parse);
 	var moveRespOne,
 		moveRespTwo,
 		moveRespThree,
 		moveRespFour;
-	
-	if(parse.moves['name'] === $('.move-1 :selected').text()){
-		moveRespOne = moves[$('.move-1 :selected').text()];
-	} else {
-		moveRespOne = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
-	}
+	$.getJSON("http://pokeapi.co/api/v1/pokemon/suicune/", function(data){
+		alert(data);
+	});
+	// if(parse.moves['name'] === $('.move-1 :selected').text()){
+	// 	moveRespOne = moves[$('.move-1 :selected').text()];
+	// } else {
+	// 	moveRespOne = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
+	// }
         
         $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>' +
         '<p class="moveinfo">' + poke + ': Found at ' + locations[poke] + '</p>' +
