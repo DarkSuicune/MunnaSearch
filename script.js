@@ -609,9 +609,13 @@ $(function(){
 	var moveRespOne,
 		moveRespTwo,
 		moveRespThree,
-		moveRespFour;
+		moveRespFour,
+		learnable = [];
 	$.getJSON("http://pokeapi.co/api/v1/pokemon/suicune/", function(data){
-		alert(JSON.stringify(data.moves['Scald']));
+		$.each( data, function( key, val ) {
+		learnable.push(key + ': ' + val);
+		document.write(learnable);
+	});
 	});
 	// if(parse.moves['name'] === $('.move-1 :selected').text()){
 	// 	moveRespOne = moves[$('.move-1 :selected').text()];
