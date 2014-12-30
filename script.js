@@ -606,6 +606,12 @@ $(function(){
 		moveRespThree,
 		moveRespFour,
 		learnable = [];
+		
+	var xhr = new XMLHttpRequest();
+	xhr.open('GET', 'http://pokeapi.co/api/v1/pokemon/absol', false);
+	xhr.send(null);
+	var parse = JSON.parse(xhr.responseText);
+	alert(parse['egg_groups'].name);
 
 	if(moves[$('.move-1 :selected').text()] !== undefined){
 		moveRespOne = moves[$('.move-1 :selected').text()];
