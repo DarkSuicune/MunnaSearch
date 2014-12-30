@@ -607,7 +607,7 @@ $(function(){
 		moveRespFour,
 		learnable = [];
 
-	if(moves[$('.move-1 :selected').text()]){
+	if(moves[$('.move-1 :selected').text()] !== undefined){
 		moveRespOne = moves[$('.move-1 :selected').text()];
 	} else {
 		moveRespOne = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
@@ -618,7 +618,7 @@ $(function(){
         '<p class="moveinfo">' + $('.item :selected').text() +': ' + items[$('.item :selected').text()] + '</p>' +
         '<p class="moveinfo">EVs: ' + hp + attack + defense + spattack + spdefense + speed + '</p>' +
         '<p class="moveinfo">' + $('.nature :selected').text() + ' Nature: Breed with a ' + $('.nature :selected').text() + ' nature Ditto holding an Everstone </p>' +
-        '<p class="moveinfo">' + $('.move-1 :selected').text() + ': ' + moves[$('.move-1 :selected').text()] + '</p>' +
+        '<p class="moveinfo">' + $('.move-1 :selected').text() + ': ' + moveRespOne + '</p>' +
         '<p class="moveinfo">' + $('.move-2 :selected').text() + ': ' + moves[$('.move-2 :selected').text()] + '</p>' +
         '<p class="moveinfo">' + $('.move-3 :selected').text() + ': ' + moves[$('.move-3 :selected').text()] + '</p>' +
         '<p class="moveinfo">' + $('.move-4 :selected').text() + ': ' + moves[$('.move-4 :selected').text()] + '</p>'
