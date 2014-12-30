@@ -612,8 +612,9 @@ $(function(){
 		moveRespFour,
 		learnable = [];
 	$.getJSON("http://pokeapi.co/api/v1/pokemon/suicune/", function(data){
+		data = JSON.parse(data);
 		$.each( data, function( key, val ) {
-		learnable.push(key + ': ' + val);
+		learnable.push(val);
 		document.write(learnable);
 	});
 	});
