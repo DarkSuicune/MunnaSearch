@@ -601,23 +601,15 @@ $(function(){
         var spdefense = ($('.spdef').val() && $('.spdef').val() !== '0' ? ' Level up holding Power Band against Frillish for a total of 5 Special Defense EVs per level. Level up holding Power Band against Claydol for a total of 6 Special Defense EVs per level. ': '');
         var speed = ($('.spe').val() && $('.spe').val() !== '0' ? ' Level up holding Power Anklet against Basculin for a total of 5 Speed EVs per level.': '');
         
- //       var request = new XMLHttpRequest();
-	// request.open("GET", "http://pokeapi.co/api/v1/pokemon/suicune/", false); // synchronous request
-	// request.send(null);
-	// var parse = JSON.parse(request.responseText);
-	// parse = JSON.stringify(parse);
-	var moveRespOne,
+        var request = new XMLHttpRequest();
+	request.open("GET", "http://pokeapi.co/api/v1/pokemon/suicune/", false); // synchronous request
+	request.send(null);
+	var stringify = JSON.stringify(request.responseText);
+	var moveRespOne = stringify,
 		moveRespTwo,
 		moveRespThree,
 		moveRespFour,
 		learnable = [];
-	$.getJSON("http://pokeapi.co/api/v1/pokemon/suicune/", function(data){
-		data = JSON.parse(data);
-		$.each( data, function( key, val ) {
-		learnable.push(val);
-		document.write(learnable);
-	});
-	});
 	// if(parse.moves['name'] === $('.move-1 :selected').text()){
 	// 	moveRespOne = moves[$('.move-1 :selected').text()];
 	// } else {
