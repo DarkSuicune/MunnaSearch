@@ -607,11 +607,11 @@ $(function(){
 		moveRespFour,
 		learnable = [];
 
-	// if(parse.moves['name'] === $('.move-1 :selected').text()){
-	// 	moveRespOne = moves[$('.move-1 :selected').text()];
-	// } else {
-	// 	moveRespOne = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
-	// }
+	if(moves[$('.move-1 :selected').text()]){
+		moveRespOne = moves[$('.move-1 :selected').text()];
+	} else {
+		moveRespOne = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
+	}
         
         $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>' +
         '<p class="moveinfo">' + poke + ': Found at ' + locations[poke] + '</p>' +
