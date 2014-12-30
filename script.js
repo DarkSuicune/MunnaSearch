@@ -615,7 +615,7 @@ $(function(){
 	if(moves[$('.move-1 :selected').text()] !== undefined){
 		moveRespOne = moves[$('.move-1 :selected').text()];
 	} else {
-		moveRespOne = 'If your Pokemon doesn\'t learn this by level 100, it ain\'t going to';
+		moveRespOne = 'If your Pokemon doesn\'t learn this by level 100 or by breeding, it ain\'t going to';
 	}
 	
 	if(moves[$('.move-2 :selected').text()] !== undefined){
