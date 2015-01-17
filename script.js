@@ -289,7 +289,7 @@ $(function(){
     var locations = {
     	'Snivy':' Starter',
 	'Servine':' Evolve Snivy',
-	'Bulbasaur':' RGB- Starter; Yellow- Cerulean City; GS- Trade; Crystal-  Trade; RS- Trade; FR/LG- Starter; Emerald- Trade; DP- Trade; Pt- Trade; HGSS- Defeat Red; BW- Transfer; BW2- Transfer; XY- Lumiose City; ORAS- Trade
+	'Bulbasaur':' RGB- Starter; Yellow- Cerulean City; GS- Trade; Crystal-  Trade; RS- Trade; FR/LG- Starter; Emerald- Trade; DP- Trade; Pt- Trade; HGSS- Defeat Red; BW- Transfer; BW2- Transfer; XY- Lumiose City; ORAS- Trade'
 	'Ivysaur':' All games- Evolve Bulbasaur, XY- Friend Safari Grass'
 	'Venusaur':' All games- Evolve Ivysaur'
 	'Charmander':' RGB- Starter; Yellow- Route 24; GS- Trade; Crystal-  Trade; RS- Trade; FR/LG- Starter; Emerald- Trade; DP- Trade; Pt- Trade; HGSS- Defeat Red; BW- Transfer; BW2- Transfer; XY- Lumiose City; ORAS- Trade'
