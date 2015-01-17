@@ -289,15 +289,15 @@ $(function(){
     var locations = {
     	'Snivy':' Starter',
 	'Servine':' Evolve Snivy',
-	'Bulbasaur':' RGB- Starter; Yellow- Cerulean City; GS- Trade; Crystal-  Trade; RS- Trade; FR/LG- Starter; Emerald- Trade; DP- Trade; Pt- Trade; HGSS- Defeat Red; BW- Transfer; BW2- Transfer; XY- Lumiose City; ORAS- Trade'
-	'Ivysaur':' All games- Evolve Bulbasaur, XY- Friend Safari Grass'
-	'Venusaur':' All games- Evolve Ivysaur'
-	'Charmander':' RGB- Starter; Yellow- Route 24; GS- Trade; Crystal-  Trade; RS- Trade; FR/LG- Starter; Emerald- Trade; DP- Trade; Pt- Trade; HGSS- Defeat Red; BW- Transfer; BW2- Transfer; XY- Lumiose City; ORAS- Trade'
-	'Charmeleon':' All games- Evolve Charmander, XY- Friend Safari Fire'
-	'Charizard':' All games- Evolve Charmeleon'
-	'Squirtle':' RGB- Starter; Yellow- Vermillion City; GS- Trade; Crystal-  Trade; RS- Trade; FR/LG- Starter; Emerald- Trade; DP- Trade; Pt- Trade; HGSS- Defeat Red; BW- Transfer; BW2- Transfer; XY- Lumiose City; ORAS- Trade'
-	'Wartortle':' All games- Evolve Squirtle, XY- Friend Safari Water'
-	'Blastoise':' All games- Evolve Wartortle'
+	'Bulbasaur':' RGB- Starter; Yellow- Cerulean City; GS- Trade; Crystal-  Trade; RS- Trade; FR/LG- Starter; Emerald- Trade; DP- Trade; Pt- Trade; HGSS- Defeat Red; BW- Transfer; BW2- Transfer; XY- Lumiose City; ORAS- Trade',
+	'Ivysaur':' All games- Evolve Bulbasaur, XY- Friend Safari Grass',
+	'Venusaur':' All games- Evolve Ivysaur',
+	'Charmander':' RGB- Starter; Yellow- Route 24; GS- Trade; Crystal-  Trade; RS- Trade; FR/LG- Starter; Emerald- Trade; DP- Trade; Pt- Trade; HGSS- Defeat Red; BW- Transfer; BW2- Transfer; XY- Lumiose City; ORAS- Trade',
+	'Charmeleon':' All games- Evolve Charmander, XY- Friend Safari Fire',
+	'Charizard':' All games- Evolve Charmeleon',
+	'Squirtle':' RGB- Starter; Yellow- Vermillion City; GS- Trade; Crystal-  Trade; RS- Trade; FR/LG- Starter; Emerald- Trade; DP- Trade; Pt- Trade; HGSS- Defeat Red; BW- Transfer; BW2- Transfer; XY- Lumiose City; ORAS- Trade',
+	'Wartortle':' All games- Evolve Squirtle, XY- Friend Safari Water',
+	'Blastoise':' All games- Evolve Wartortle',
 	'Serperior':' Evolve Servine',
 	'Tepig':' Starter',
 	'Pignite':' Evolve Tepig',
