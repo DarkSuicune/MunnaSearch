@@ -651,6 +651,7 @@ $(function(){
 	'Tyranitar':' Route 15 Shaking Grass 5%',
 	'Reshiram':' Trade Required',
 	'Zekrom':' Dragonspiral Tower',
+	'Rattata':' RB- Routes 1, 2, 4, 9, 16, 21, and 22; Yellow- Routes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 18, 21, and 22, Pokémon Mansion; Gold- Routes 1, 3, 4, 7, 9, 11, 22, 29, 30, 31, 32, 33, 34, 38, 39, and 46, Bell Tower, Mt. Mortar, Union Cave, Tohjo Falls, Sprout Tower and Burned Tower; Silver- Routes 1, 3, 4, 7, 9, 11, 22, 29, 30, 31, 32, 33, 34, and 46, Bell Tower, Mt. Mortar,Union Cave, Tohjo Falls, Sprout Tower and Burned Tower; Crystal- Routes 1, 3, 4, 7, 9, 11, 21, 22, 29, 32, 33, 34, 38, 39, 42 and 46, Bell Tower, Mt. Mortar, Union Cave, Tohjo Falls, Sprout Tower and Burned Tower; RSE/XY- Trade; FRLG- Routes 1, 2, 4, 9, 16, 17, 18, and 22, Pokémon Mansion; DPPt- Routes 225 and 226; HG- Routes 1, 3, 4, 7, 9, 11, 22, 29, 30, 31, 32, 33, 34, 38, 39, and 46, Sprout Tower,Union Cave, Burned Tower, Bell Tower, Mt. Mortar; SS- Routes 1, 3, 4, 7, 9, 11, 22, 29, 30, 31, 32, 33, 34 and 46, Sprout Tower, Union Cave,Burned Tower, Bell Tower, Mt. Mortar; BW- Breed; BW2- Castelia City, Castelia Sewers, Relic Passage; ORAS- Route 117 (hidden Pokémon)',
 	'Kyurem':' Giant Chasm'
 
 
