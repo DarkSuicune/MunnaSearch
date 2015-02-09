@@ -707,7 +707,7 @@ $(function(){
 		moveRespFour = 'If your Pokemon doesn\'t learn this by level 100 or by <a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Egg_Group">breeding</a>, it ain\'t going to';
 	}
         
-        $('.result-container').html('<span class="result">How to breed the perfect ' + poke + '!</span>' +
+        $('.result-container').html('<span class="result">How to breed ' + poke + '!</span>' +
         '<p class="moveinfo">' + poke + ': ' + locations[poke] + '</p>' +
         '<p class="moveinfo">' + $('.item :selected').text() +': ' + items[$('.item :selected').text()] + '</p>' +
         '<p class="moveinfo">EVs: ' + hp + attack + defense + spattack + spdefense + speed + '</p>' +
