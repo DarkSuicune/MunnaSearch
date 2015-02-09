@@ -390,7 +390,7 @@ $(function(){
 	'Koffing':' Virbank Complex Grass & Dark Grass 15%',
 	'Weezing':' P2 Laboratory Grass 15%',
 	'Magnemite':' Virbank Complex Grass & Dark Grass 25%',
-	'Magneton':' P2 Laboratory Grass 15%',
+	'Magneton':' P2 Laboratory Grass 15',
 	'Magnezone':' P2 Laboratory Shaking Grass 5%',
 	'Magby':' Virbank Complex Grass & Dark Grass 25%',
 	'Magmar':' Evolve Magby',
